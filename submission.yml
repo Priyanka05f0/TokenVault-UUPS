@@ -1,0 +1,38 @@
+project: TokenVault-UUPS
+author: Lakshmi Priyanka
+description: >
+  Production-grade upgradeable smart contract system using the UUPS proxy pattern.
+  Demonstrates secure initialization, role-based access control, storage layout
+  preservation, and multi-version upgrades (V1 → V2 → V3).
+
+tech_stack:
+  - Solidity
+  - Hardhat
+  - Ethers.js
+  - OpenZeppelin Contracts Upgradeable
+  - JavaScript
+  - Mocha
+  - Chai
+
+features:
+  - UUPS Proxy upgrade mechanism
+  - Role-based access control (ADMIN, UPGRADER, PAUSER)
+  - Deposit fee mechanism
+  - Yield calculation and claiming
+  - Pause/unpause deposits
+  - Withdrawal delay with emergency withdrawals
+  - Secure initialization
+  - Storage layout preservation across upgrades
+
+tests:
+  - TokenVaultV1.test.js
+  - upgrade-v1-to-v2.test.js
+  - upgrade-v2-to-v3.test.js
+  - security.test.js
+
+scripts:
+  - deploy-v1.js
+  - upgrade-to-v2.js
+  - upgrade-to-v3.js
+
+status: Ready for Submission
