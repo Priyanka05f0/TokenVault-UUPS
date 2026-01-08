@@ -215,8 +215,8 @@ await vault.executeWithdrawal();
 ---
 
 ### Project Structure
-```
-```
+
+```text
 TokenVault-UUPS/
 ├── contracts/
 │   ├── TokenVaultV1.sol
@@ -237,6 +237,7 @@ TokenVault-UUPS/
 ├── package.json
 ├── submission.yml
 └── README.md
+```
 
 ---
 
